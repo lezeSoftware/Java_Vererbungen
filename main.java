@@ -1,14 +1,12 @@
-package keksDose;
-
-import java.util.ArrayList;
+package volumenUndGewicht;
 
 public class main {
 
 	public static void main(String[] args) {
-		KeksDose kD = new KeksDose();
-		kD.addKeks(new Keks(50));
-		kD.addKeks(new GlasierterKeks(100,100));
+		Pyramide p = new Pyramide(3, 2);
 		
-		System.out.println(kD.gesamtEnergie());
+		System.out.println(p.getVolumen());
+		System.out.println(p.getGewicht(Material.GOLD));
 	}
+
 }
