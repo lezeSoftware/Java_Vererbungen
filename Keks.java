@@ -1,4 +1,4 @@
-package keksDose;
+package com.company;
 
 //Oberklasse
 public class Keks{

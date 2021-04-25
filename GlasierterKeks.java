@@ -4,13 +4,15 @@ package keksDose;
 public class GlasierterKeks extends Keks {
 	int energieGlasur;
 	
-	public GlasierterKeks(int enGla, int enKek) {
+	public GlasierterKeks(int enGla, int enKek)
+	{
 		super(enKek);
 		energieGlasur = enGla;
 	}
 	
 	@Override
-	int getEnergieKeks() {
+	int getEnergieKeks()
+	{
 		return this.energieGlasur + super.energieKeks;
 	}
 }
